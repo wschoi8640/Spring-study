@@ -9,13 +9,13 @@ public class MainClass {
 //		TransportationWalk transportationWalk = new TransportationWalk();
 //		transportationWalk.move();
 		
-		GenericXmlApplicationContext ctx = 
+		GenericXmlApplicationContext applicationContext = 
 				new GenericXmlApplicationContext("classpath:applicationContext.xml");
 		
-		TransportationWalk transportationWalk = ctx.getBean("tWalk", TransportationWalk.class);
+		TransportationWalk transportationWalk = applicationContext.getBean("tWalk", TransportationWalk.class);
 		transportationWalk.move();
 		
-		ctx.close();
+		applicationContext.close();
 	}
 	
 }
