@@ -1,4 +1,4 @@
-package lec01Pjt001;
+package domain;
 
 
 import operator.CalAdd;
