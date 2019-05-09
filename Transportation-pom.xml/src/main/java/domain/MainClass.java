@@ -1,4 +1,4 @@
-package lec03Pjt001;
+package domain;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 

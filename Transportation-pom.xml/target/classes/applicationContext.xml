@@ -5,6 +5,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
  		http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="tWalk" class="lec03Pjt001.TransportationWalk" />
+	<bean id="tWalk" class="domain.TransportationWalk" />
 	
 </beans>
