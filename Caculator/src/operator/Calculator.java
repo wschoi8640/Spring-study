@@ -1,5 +1,5 @@
 package operator;
 
 public interface Calculator {
-	public int sum(int firstNum, int secondNum);
+	public int work(int firstNum, int secondNum);
 }

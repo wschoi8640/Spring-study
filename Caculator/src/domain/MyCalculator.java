@@ -5,43 +5,17 @@ import operator.Calculator;
 
 public class MyCalculator {
 
-	public int fNum, sNum;
+	public int firstNum, secondNum;
 	public Calculator calculator;
 	
-	public MyCalculator(int fNum, int sNum, Calculator calculator) {
-		this.fNum = fNum;
-		this.sNum = sNum;
+	public MyCalculator(int firstNum, int secondNum, Calculator calculator) {
+		this.firstNum = firstNum;
+		this.secondNum = secondNum;
 		this.calculator = calculator;
 	}
 	
 	public void result() {
-		int value = calculator.sum(this.fNum, this.sNum);
+		int value = calculator.work(this.firstNum, this.secondNum);
 		System.out.println("result : " + value);
 	}
-
-	public Calculator getCalculator() {
-		return calculator;
-	}
-
-	public void setCalculator(Calculator calculator) {
-		this.calculator = calculator;
-	}
-
-	public int getfNum() {
-		return fNum;
-	}
-
-	public void setfNum(int fNum) {
-		this.fNum = fNum;
-	}
-
-	public int getsNum() {
-		return sNum;
-	}
-
-	public void setsNum(int sNum) {
-		this.sNum = sNum;
-	}
-
-
 }
