@@ -2,12 +2,12 @@ package toy;
 
 import battery.Battery;
 
-public class ElectronicRadioToy {
+public class ToyRobot {
 	
 	private Battery battery;
 	
-	public ElectronicRadioToy(Battery battery) {
-		this.battery = battery;
+	public ToyRobot() {
+		
 	}
 	
 	public void setBattery(Battery battery) {

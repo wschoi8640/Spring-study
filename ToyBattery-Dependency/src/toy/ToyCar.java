@@ -3,11 +3,11 @@ package toy;
 import battery.Battery;
 import battery.NormalBattery;
 
-public class ElectronicCarToy {
+public class ToyCar {
 	
 	private Battery battery;
 	
-	public ElectronicCarToy() {
+	public ToyCar() {
 		battery = new NormalBattery();
 	}
 	

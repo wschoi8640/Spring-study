@@ -2,16 +2,18 @@ package toy;
 
 import battery.Battery;
 
-public class ElectronicRobotToy {
+public class ToyRadio {
 	
 	private Battery battery;
 	
-	public ElectronicRobotToy() {
-		
-	}
-	
-	public void setBattery(Battery battery) {
+	public ToyRadio(Battery battery) {
 		this.battery = battery;
 	}
 	
+	public ToyRadio() {
+	}
+
+	public void setBattery(Battery battery) {
+		this.battery = battery;
+	}
 }
