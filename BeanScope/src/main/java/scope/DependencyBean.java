@@ -1,4 +1,4 @@
-package scope.ex;
+package scope;
 
 public class DependencyBean {
 

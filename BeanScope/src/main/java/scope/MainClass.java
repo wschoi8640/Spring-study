@@ -1,4 +1,4 @@
-package scope.ex;
+package scope;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
