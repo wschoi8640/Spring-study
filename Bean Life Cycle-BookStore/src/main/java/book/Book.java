@@ -1,6 +1,6 @@
-package com.brms.book;
+package book;
 
-import com.brms.member.Member;
+import member.Member;
 
 public class Book {
 

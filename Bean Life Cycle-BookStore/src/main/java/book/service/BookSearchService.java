@@ -1,9 +1,9 @@
-package com.brms.book.service;
+package book.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.brms.book.Book;
-import com.brms.book.dao.BookDao;
+import book.Book;
+import book.dao.BookDao;
 
 public class BookSearchService {
 

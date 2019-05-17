@@ -1,9 +1,9 @@
-package com.brms.member.service;
+package member.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.brms.member.Member;
-import com.brms.member.dao.MemberDao;
+import member.Member;
+import member.dao.MemberDao;
 
 public class MemberSearchService {
 

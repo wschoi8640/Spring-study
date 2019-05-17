@@ -1,13 +1,13 @@
-package com.brms;
+
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-import com.brms.book.Book;
-import com.brms.book.service.BookRegisterService;
-import com.brms.book.service.BookSearchService;
-import com.brms.member.Member;
-import com.brms.member.service.MemberRegisterService;
-import com.brms.member.service.MemberSearchService;
+import book.Book;
+import book.service.BookRegisterService;
+import book.service.BookSearchService;
+import member.Member;
+import member.service.MemberRegisterService;
+import member.service.MemberSearchService;
 
 public class MainClass {
 	public static void main(String[] args) {

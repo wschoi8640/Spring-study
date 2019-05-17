@@ -1,4 +1,4 @@
-package com.brms.book.dao;
+package book.dao;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-import com.brms.book.Book;
+import book.Book;
 
 public class BookDao implements InitializingBean, DisposableBean {
 

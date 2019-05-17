@@ -1,9 +1,9 @@
-package com.brms.member.dao;
+package member.dao;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.brms.member.Member;
+import member.Member;
 
 public class MemberDao {
 

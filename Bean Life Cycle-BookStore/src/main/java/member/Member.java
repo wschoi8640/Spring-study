@@ -1,4 +1,4 @@
-package com.brms.member;
+package member;
 
 public class Member {
 
