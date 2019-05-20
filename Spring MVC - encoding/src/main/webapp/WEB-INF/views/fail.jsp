@@ -7,8 +7,8 @@
 </head>
 <body>
 	<h1>
-		Fail!! <br />
-		실패
+		This is ${result} page. <br />
+		이 곳은 ${result_kor} 입니다.
 	</h1>
 </body>
 </html>

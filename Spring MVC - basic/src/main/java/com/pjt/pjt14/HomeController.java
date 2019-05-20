@@ -19,12 +19,19 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Model model) {
+	public String login(Model model) {
 		logger.info("Request received!");
-		
 		model.addAttribute("comment", "what ever i want");
 		
 		return "login";
+	}
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home(Model model) {
+		logger.info("Request received!");
+		model.addAttribute("comment", "what ever you want");
+		
+		return "home";
 	}
 	
 }
